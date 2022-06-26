@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+
+  .back_to_top_main{
+      margin: 0 auto;
+      
+  }
+
+  .back_to_top{
+    background-color: #37475A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+  }
+
+  .back_to_top:hover{
+    background-color: #51667e;
+  }
+
+  .back_to_top_main_footer{
+      width: 100%;
+      background-color: #232F3E;
+      color: white;
+  }
+
+  .back_to_top_text_header{
+    max-width: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 44px;
+    margin: 0 auto;
+    
+  }
+
+  .back_to_top_text_main_nav{
+      font-size: 16px;
+      margin: 6px 0 14px;
+      font-weight: bold;
+  }
+
+  .back_to_top_text_header li{
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 14px;
+   
+  }
+
+  .back_to_top_text_header a{
+    color: #DDD;
+    text-decoration: none;
+  }
+
+  .back_to_top_text_header a:hover{
+        text-decoration: underline;
+  }
+
+  .back_to_top_line{
+      width: 100%;
+      border-top: 1px solid #3a4553;
+      margin-top: 40px;
+  }
+
+  .amazon_nav_footer{
+      width: 100%;
+      height: 68px;
+      font-size: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;   
+      padding: 50px 0 80px 0;     
+  }
+
+  .amazon_nav_footer a{
+    margin: 10px auto;
+    text-decoration: none;
+    color: #DDD;
+     
+  }
+  .amazon{
+    width: 80px;
+    height: 32px;
+    background-position: -10px -83px;
+    background-repeat: repeat-x;
+    background-image: url("../../public/img/nav-img.png");
+  }
+
+  .english_usd_united-states{
+      display: flex;
+    margin-left: 70px;
+    width: 443px;
+  }
+
+  .english_nav{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 27%;
+      height: 36px;
+      border: 1px solid #8f8f8f;
+      border-radius: 3px;
+      font-size: 13px;
+  }
+  .map{
+    background-position: 70px 250px;
+    width: 22px;
+    height: 25px;
+    background-image: url("../../public/img/usaes.png");
+   
+  }
+
+  .back_up{
+    background-position: 70px 221px;
+    width: 22px;
+    height: 21px;
+    background-image: url("../../public/img/usaes.png");
+  }
+
+  .usd_us_dollar_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 34.5%;
+    height: 36px;
+    border: 1px solid #8f8f8f;
+    border-radius: 3px;
+    font-size: 13px;
+    padding-right: 18px;
+  }
+
+  .flag_united_states{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 32.5%;
+    height: 36px;
+    border: 1px solid #8f8f8f;
+    border-radius: 3px;
+    font-size: 13px;
+    padding-right: 21px;
+  }
+
+  .flag{
+    background-position: 283px 67px;
+    width: 16px;
+    height: 16px;
+    background-image: url("../../public/img/usaes.png");
+   
+  }
+  .hover_english{
+    width: 16%;
+    height: 350px;
+    border: 0.2px solid #8D9096;
+    padding: 10px;
+    line-height: 30px;
+    margin: 43.5vh  0 0 7.5%;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    position:absolute;
+    z-index: 99999999999999999; 
+    
+  }
+
+  .change_language_lern_more{
+    font-size: 14px;
+    color: #0F1111;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+    .learn_more{
+    font-size: 12px;
+    margin-left:  20px;
+  }
+
+  .learn_more:hover{
+    text-decoration: underline;
+  }
+
+  .circule_span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  .language:hover .circle{
+    background-color: orange;
+   
+  }
+
+  .language{
+    display: flex;
+  }
+
+  .languajes{
+    margin: 0 15px;
+    font-size: 14px;
+    color: black;
+  }
+
+  .language:hover .languajes{
+    text-decoration: underline;
+    color: orange;
+    cursor: pointer;
+  }
+
+  .hr{
+    margin: 5px 33px;
+    opacity: .1;
+  }
+
+  @media screen and (max-width:1250px) {
+    .back_to_top_text_header{
+      max-width: 100%;
+    }
+    
+  }

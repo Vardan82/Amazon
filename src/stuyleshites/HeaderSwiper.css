@@ -1,0 +1,336 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header{
+   background-color: #eaeded;
+  }
+
+  .header_swiper_ferst_img{
+    width: 83%;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+  .header_swiper_ferst_imges{
+      display: flex;
+      position: relative;
+      transition: .3s;
+           
+  }
+
+  .imgBrous{
+    width: auto;
+    height: 600px;
+    
+}
+.left_icon{
+    width: 4.5%;
+    height: 250px;
+    position: absolute;
+    z-index: 777;
+    cursor: pointer;
+    border-radius: 4px;
+    left: 10px;
+}
+
+.left_icon span {
+    width: 99%;
+    height: 248px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.left{
+    width: 25px;
+    height: 42px;
+     
+}
+.right_icon{
+    width: 4.5%;
+    height: 250px;
+    position: absolute;
+    z-index: 666;
+    cursor: pointer;
+    right: 10px;
+   
+}
+
+.right_icon span {
+    width: 99%;
+    height: 248px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.right{
+    width: 25px;
+    height: 42px;
+   
+}
+
+
+.gamin_accessories_shopby_category_health_personalcare_singinthebest_experience{
+    position: relative;
+    z-index: 9999999;
+    margin-top: -340px;
+}
+
+.title_icon_content_nav_header{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: -20px;
+    margin: 0 auto;
+    overflow: hidden;
+   
+}
+.title_icon_content_nav{
+    background-color: white;
+    margin: 0 10px;
+    padding: 20px 0 15px;
+    width: 19.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.title_icones{
+    display: flex;
+}
+
+.title_icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_icon_yoys{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55%;
+    margin-left: 45px;
+}
+
+.title_icon_video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.icon_yoys_games{
+    width: 80%;
+    height: 80%;   
+}
+
+.content{
+    padding: 0 20px;
+    margin: 0 0 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.title_icones_nav{
+margin: 0 0 44px;
+padding: 0 20px;
+
+}
+
+.shop_by_category{
+    padding: 0 20px 56px;
+}
+
+.title{
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.icon{
+    width: 100%;
+}
+
+.icontwo{
+    width: 100%;
+}
+
+.title_footer{
+    color: #007185;
+    margin: 0 20px;
+    font-size: 13px;
+}
+
+.title_footer:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.icon_produqts{
+    flex-grow: 1;
+    width: 100%;
+    height: 275px;
+    margin-bottom: 44px;
+    padding: 0 20px;
+}
+
+.icon_produqt{
+    flex-grow: 1;
+    width: 100%;
+    height: 275px;
+    margin-bottom: 44px;
+}
+
+.singin_forthebest_experience_nav{
+    cursor: pointer;
+    width: 20%;
+}
+
+.singin_forthebest_experience_nav_footer{
+    cursor: pointer;
+    width: 20%;
+    display: none;
+}
+
+.singin_forthebest_experience{
+    background-color: white;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    padding: 20px 0 15px;
+}
+
+.sign_inIsecurely{
+    width: 88%;
+    
+}
+
+.sign_inIsecurely_button{
+    padding: 0 10px 0 11px;
+    background: #FFD814;
+    border-color: #FCD200;
+    width: 100%;
+    height: 29px;
+    border-radius: 10px;
+}
+
+.sign_inIsecurely_button:hover{
+    background-color: #ebc81e;
+    cursor: pointer;
+}
+
+.chek_box{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.chek_box img{
+    width: 88%;
+    height: 275px;
+}
+
+.title_icon_content_nav_footer{
+    background-color: white;
+    margin: 10px 10px 0 -5px;
+    padding: 20px 0 15px;
+    width: 90.5%;
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    display: none;
+}
+
+.title_icon_content_nav_header_produqts{
+    
+    display: flex;
+    justify-content: center;
+    max-width: 99%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content_icon_title_footer{
+    background-color: white;
+    margin: 20px 10px;
+    padding: 20px 0 15px;
+    width: 19.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+    .singin_forthebest_experience_nav{
+        display: none;
+    }
+
+    .header_swiper_ferst_img{
+        width: 100%;
+    }
+
+    .title_icon_content_nav{
+        width: 32%;
+        margin: 0px 0 0 18px;
+    }
+
+    .singin_forthebest_experience_nav_footer{
+        display:block;
+        width: 95.5%;
+    }
+    .title_icon_content_nav_header_produqts{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 100%;
+        margin: 0 4%;
+    }
+
+    .title_icon_content_nav_header{
+        margin-left: 12px;
+    }
+    .title_icon_content_nav_footer{
+      
+        display: block;
+    }
+
+    .content_icon_title_footer{
+    background-color: white;
+    margin: 10px 10px 0 -3px;
+    padding: 20px 0 15px;
+    width: 95.5%;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    }
+
+    .chek_box{
+        margin-top: 12px;
+    }
+
+    .chek_box img{
+        width: 78%;
+        height: 250px;
+        margin: 0 0 0 -20px;
+    }
+    .singin_forthebest_experience{
+        margin: 33px 22px 0 -5px;
+        height: 130px;
+    }
+}
